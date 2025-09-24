@@ -1,0 +1,15 @@
+str1 = input()
+str2 = input()
+
+str111 = str1.lower()
+str222 = str2.lower()
+
+str11 = sorted(str111)
+str22 = sorted(str222)
+
+if len(str1) != len(str2):
+    print("not an anagram")
+elif str11 == str22:
+    print("anagram")
+else:
+    print("not an anagram")
